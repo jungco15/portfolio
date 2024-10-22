@@ -1,0 +1,180 @@
+.particles{
+    position: absolute;
+    top: 600;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Make sure it's behind the text */
+}
+.about{
+    background-color: #2d2d2d;
+    box-sizing: border-box;
+    height: 100%;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.container-about{
+    padding-top: 100px;
+    height: 1020px;
+    width: 611px;
+    align-items: center;
+    position: relative;
+
+}
+.section-header h5{
+    background-color: transparent;
+    height: 28px;
+    font: bold 28px "Inria Sans", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-bottom: 1px;
+    cursor: default;
+}
+.line-header {
+    width: 86%;           /* Full width */
+    height: 1px;          /* Thickness of the line */
+    background-color: #09cd925e; /* Color of the line */
+    margin: 10px 0;       /* Space above and below */
+}
+.content-about{
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body-left {
+    height: 355px;
+    width: 355px;
+    cursor: default;
+    text-decoration: none;
+}
+.body-left p{
+    margin: 20px 0 0px 0;
+    color: #B3B3B3;
+    font-weight: 500;
+    font: 300 16px 'Inria Sans', sans-serif;
+    letter-spacing: 1px;
+}
+.body-left a{
+    text-decoration: none;
+    color: #09cd92;
+}
+
+.body-right{
+    max-width: fit-content;
+    width: auto;
+    margin-left: 50px;
+    margin-right: auto;
+    display: inline-block;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    will-change: transform;
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    box-shadow: 10px 12px 0px 0px hsl(162, 92%, 42%);
+}
+.body-right:hover{
+    transition-duration: 80ms ;
+    transform: translate(4%, 4%);
+    overflow: hidden;
+    box-shadow: 1px 2px 0px 0px hsl(162, 92%, 42%);
+}
+.body-right img{
+    width: auto;  
+    display: block;
+    height: auto;
+    filter: blur(0px);
+}
+.bottom-list {
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.bottom-list ul {
+    padding: 0;
+    margin:0;
+    display: flex; /* Use flexbox for horizontal alignment */
+    flex-wrap: wrap; /* Allow items to wrap onto the next line */
+}
+
+.bottom-list li {
+    background-color: #2d2d2d;
+    align-items: center;
+    padding: 10px;
+    margin-right: 4px; /* Add some space between items */
+    margin-bottom: -12px; /* Add space below each item */
+    position: relative; /* Positioning for pseudo-element */
+    list-style: none; /* Remove default bullet */
+    color: #B3B3B3;
+    font: 300 14px "Inria Sans", sans-serif;
+}
+
+.bottom-list li::before {
+    content: '';
+    position: absolute;
+    left: -6px; /* Adjust position as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px; /* Diameter of custom bullet */
+    height: 4px; /* Diameter of custom bullet */
+    background-color: #09cd92; /* Color of custom bullet */
+    border-radius: 50%; /* Makes it a circle */
+}
+
+.bottom-list li:last-child {
+    margin-right: 0px; /* Remove margin from the last item */
+}
+
+
+@media(max-width:490px){
+    .content-about{
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        width: 200px;
+    }
+    .section-header h5{
+        font-size: 24px;
+    }
+    .body-right{
+        margin-bottom: 380px;
+        margin-left: -276px;
+        width: 120px;
+    }
+    .body-left{
+        margin-top: 100px;
+        width: 276px;
+    }
+    .body-left p{
+        font-size: 14px;
+    }
+    .container-about{
+        height: 1020px;
+    }
+}
+@media (max-width:1020px){
+    .container-about{
+        padding: 32px;
+    }
+    .bottom-list ul{
+        width: 200px;
+        height: 300px;
+        flex-direction:column;
+        font-size: 14px;
+        
+    }
+}
+
+
+
+

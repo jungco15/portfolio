@@ -1,0 +1,82 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2d2d2d;
+    color: #ffffff;
+    padding: 20px 10px;
+    height: auto;
+}
+.upper-content {
+    margin-bottom: 5px; /* Space between upper and below content */
+}
+.upper-content p{
+ font: 300 12px/20px 'Inria Sans';
+ color: #B3B3B3;
+}
+
+.below-content {
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    margin: 0;
+    width: auto;
+}
+.below-content p {
+    margin-right: 0px; /* Space between text and icons */
+    font: 300 12px/20px 'Inria Sans';
+    color: #B3B3B3;
+    margin: 0;
+    padding: 0 5px;
+    flex-shrink: 0;
+}
+
+.below-content a {
+    margin-left: 5px; /* Space between icons */
+    flex-grow: 0;
+}
+
+.below-content img {
+    width: 16px; /* Set icon size */
+    height: 16px; /* Set icon size */
+    display: inline-block; /* Ensure proper sizing */
+    vertical-align: middle; /* Align images with text */
+    margin: 0;
+}
+
+/* Media Queries */
+@media(max-width: 790px) {
+    .footer {
+        padding: 15px; /* Slightly smaller padding */
+        text-align: center;
+    }
+    .upper-content {
+        text-align: center; /* Center text for small screens */
+    }
+    .upper-content p {
+        font-size: 10px; /* Smaller font size */
+    }
+    .below-content {
+        display: flex;
+        align-items: center; 
+        justify-content: center; /* Keep items together */
+        margin: 0;
+        width: auto;
+    }
+    .below-content a{
+        margin-left: 5px; /* Space between icons */
+        flex-grow: 0; /* Prevent growing */
+    }
+    .below-content img{
+        width: 16px; 
+        height: 16px; 
+        margin: 0 12px; /* Remove any margins */
+    }
+    .below-content p{
+        font-size: 10px;
+        margin: 0 -25px ; /* Adjust margin to keep text close to images */
+        padding: 0;
+    }
+}
+

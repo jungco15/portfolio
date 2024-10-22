@@ -1,0 +1,140 @@
+header{
+    background-color: #2d2d2d;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 52px ;
+    position: relative;
+    z-index: 2;
+    transition: height 0.3s ease;
+    height: auto;
+}
+.particles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.logo{  
+    background-color: none;
+    padding: 0px;
+    margin-left: 105px;
+    margin-bottom: -10px;
+    margin-top: -25px;
+}
+.logo img{
+    width: 45px;
+    height: 45px;
+}
+
+header a:hover{
+    color: #09cd92;
+} 
+.nav-btn {
+    padding-top: 7px;
+    margin-right: 46px;
+    color: black;
+    text-decoration: none;
+    font: bold 10px 'Inria Sans', sans-serif;
+    background-color: #ffffff;
+    letter-spacing: 2px;
+    height: 30px;
+    width: 95px;
+    font-style: normal;
+    border: 0.7px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 5px 5px 0px #09cd92, 4px 4px 0px #09cd92, 3px 3px 0px #09cd92, 2px 2px 0px #08cd92;
+    transition: transform 0.030s;
+}
+.nav-btn:active{
+    box-shadow: none;
+    transform: translate(3px, 6px);
+}
+.menu-bar{
+    display: none;
+}
+.menu-bar.hidden {
+    opacity: 0;
+    display: none; /* Hide the menu bar when the menu is open */
+    pointer-events: none;
+}
+header ul {
+    display: flex;
+    gap: 0px;
+}
+header ul li {
+    list-style: none;
+    margin-top: -20px;
+}
+
+#menuList {
+    display:flex; 
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+#menuList.open {
+    display: flex;
+    flex-direction: column; 
+}
+
+@media (max-width:790px){
+    *{
+        margin: 0;
+        width: 100%;
+    }
+
+}
+
+@media (max-width:1020px){
+       header ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color:#2d2d2d;
+        overflow: hidden;
+    }
+    header ul li{
+        padding: 20px;
+    }
+    .nav-btn{
+        padding-top: 0;
+        margin-right: 0;
+        background-color:transparent;
+        height: 100%;
+        width: 100%;
+        border:0;
+        display: inline-block;
+        box-shadow: 0px 0px 0px #09cd92, 0px 0px 0px #09cd92, 0px 0px 0px #09cd92, 0px 0px 0px #08cd92;
+        color: #09cd92;
+    }
+    .nav-btn a{
+        text-decoration: underline;
+    }
+    .logo{
+        margin-left: -32px;
+        margin-bottom: -30px;
+        margin-top: -30px;
+    }
+    .menu-bar {
+        display: flex;
+        margin-right: -100%;
+        margin-top: -25px;
+        width: 100%;
+        margin-bottom: -40px;
+    }
+    .menu-bar img{
+        width: 42px;
+        height: 42px;
+    }
+    #menuList {
+        display:none;
+        
+    }
+}

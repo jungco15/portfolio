@@ -2,7 +2,7 @@ import './project.css'
 import list from '../assets/list.svg'
 import BoxReveal from '../components/ui/box-reveal'
 import Particles from '../components/ui/particles'
-import  AwsTodos from '../assets/awesometodos.svg'
+import  AwsesomeTodos from '../assets/awesometodos.svg'
 
 
 
@@ -27,7 +27,7 @@ function Projects (){
                     <div className="list-container">
                         <BoxReveal>
                         <div className="row-1">
-                        <a href='https://listahanparamangqpal.onrender.com' target='_blank'><img src={AwsTodos} alt='list'></img></a>
+                        <a href='https://listahanparamangqpal.onrender.com' target='_blank'><img src={AwsesomeTodos} alt='list'></img></a>
                             <img src={list} alt='list'></img>
                             <img src={list} alt='list'></img> 
                             <img src={list} alt='list'></img> 

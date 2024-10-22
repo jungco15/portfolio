@@ -35,9 +35,6 @@ function Projects (){
                             <img src={list} alt='list'></img>
                         </div>
                         </BoxReveal>
-                        <div className="viewmore">
-                            {/* <button className="viewmore-btn">View More</button> */}
-                        </div>
                     </div>
             </div>
             </div>

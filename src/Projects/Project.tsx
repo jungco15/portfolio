@@ -2,7 +2,8 @@ import './project.css'
 import list from '../assets/list.svg'
 import BoxReveal from '../components/ui/box-reveal'
 import Particles from '../components/ui/particles'
-import  AwsTodos from '../assets/awstodos2.svg'
+import  AwsTodos from '../assets/awesometodos.svg'
+
 
 
 function Projects (){

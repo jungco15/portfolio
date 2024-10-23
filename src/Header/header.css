@@ -48,9 +48,9 @@ header a:hover{
     display: inline-block;
     text-align: center;
     box-shadow: 5px 5px 0px #09cd92, 4px 4px 0px #09cd92, 3px 3px 0px #09cd92, 2px 2px 0px #08cd92;
-    transition: transform 0.030s;
+    transition: all 0.4s;
 }
-.nav-btn:active{
+.nav-btn:hover{
     box-shadow: none;
     transform: translate(3px, 6px);
 }

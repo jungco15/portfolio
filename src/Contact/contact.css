@@ -22,12 +22,13 @@
 }
 
 .contact-heading {
-    
+    padding: 0;
     margin: 130px 0 0 0 ;
 }
 .contact-heading-box{
     height: auto;
-
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 .contact-heading h4 {
@@ -51,6 +52,7 @@
     width: 100%;
     box-sizing: border-box;
     margin-right: 10px;
+    transition: all 0.3s;
 }
 
 .contact-button a {
@@ -72,7 +74,19 @@
 
 .contact-button a:hover {
     color: #09cd92;
+    transform: translateY(2px);
 }
+.pdf a{
+    color: #09cd92;
+    font: 300 16px/20px 'Inria Sans';
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+.pdf a:hover{
+    color: #ffffff;
+    transform: translateY(2px);
+}
+
 @media(max-width:790px){
     .contact-content {
         padding: 22px;
@@ -81,7 +95,6 @@
         align-items: center;
         justify-content: center;
     }
-
  
 }
 @media (max-width:490px){
@@ -90,6 +103,9 @@
     }
     
     .contact-heading p {
+        font-size: 14px;
+    }
+    .pdf a{
         font-size: 14px;
     }
  

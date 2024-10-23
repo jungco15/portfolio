@@ -2,7 +2,6 @@ import BoxReveal from '../components/ui/box-reveal'
 import Particles from '../components/ui/particles'
 import './contact.css'
 import cv from '../../src/assets/CV.pdf'
-import { AiOutlineDownload } from "react-icons/ai";
 
 function Contact(){
     return(

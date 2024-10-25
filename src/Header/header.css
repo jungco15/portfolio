@@ -59,7 +59,7 @@ header a:hover{
 }
 .menu-bar.hidden {
     opacity: 0;
-    display: none; /* Hide the menu bar when the menu is open */
+    display: none;
     pointer-events: none;
 }
 header ul {

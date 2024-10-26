@@ -2,7 +2,7 @@ import './project.css'
 import list from '../assets/list.svg'
 import BoxReveal from '../components/ui/box-reveal'
 import Particles from '../components/ui/particles'
-import  AwsesomeTodos from '../assets/awesometodos.svg'
+import  AwsesomeTodos from '../assets/glass.svg'
 
 
 

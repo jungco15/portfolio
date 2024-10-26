@@ -35,7 +35,7 @@ function About(){
                 <ul>
                     <li>HTML</li>
                     <li>Node.js</li>
-                    <li>Webflow</li>
+                    <li>Shadcn/ui</li>
                     <li>Javascript</li>
                     <li>Css</li>
                     <li>Figma</li>
@@ -43,6 +43,7 @@ function About(){
                     <li>MongoDB</li>
                     <li>Express.js</li>
                     <li>Tailwind</li>
+                    <li>Typescript</li>
                 </ul>
             </div>
             </BoxReveal>

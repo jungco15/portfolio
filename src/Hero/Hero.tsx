@@ -2,17 +2,14 @@ import BoxReveal from '../components/ui/box-reveal'
 import './hero.css'
 import Particles from '../components/ui/particles';
 import WordRotate from '../components/ui/word-rotate';
-import Aos from 'aos'
-import 'aos/dist/aos.css'
-import { useEffect } from 'react';
+
+
 
 function Hero(){
-    useEffect(()=>{
-        Aos.init({ duration: 1000 });
-    },[])
 
     return(
 
+        
         <section>
             <div className='wrapper-hero'>
             <div className="container-hero">    
@@ -22,12 +19,12 @@ function Hero(){
                        ease={80}
                        refresh/>
                 <BoxReveal>
-                <div className='mini-heading' >
-                    <p>Hi there, my name is </p>
+                <div className='mini-heading'>
+                    <p>Hi there, my name is</p>
                 </div>
                 </BoxReveal>
                 <BoxReveal>
-                    <WordRotate className='font-title text-4xl sm:text-5xl font-bold text-slate-50 dark:text-white' words={["JM", "JUNGCO"]}/>
+                    <WordRotate className='font-title text-4xl sm:text-5xl font-bold text-slate-50 ' words={["JM", "JUNGCO"]}/>
                 </BoxReveal>
                 <BoxReveal>
                 <div className='content-hero' >
@@ -37,7 +34,7 @@ function Hero(){
                 
                 <div className="mini-intro">
                     <div className='mini-intro-box'>
-                        <BoxReveal>
+                        <BoxReveal >
                     <p>I’m a student at Western Institute of Technology partaking the course of Information of Technology.</p>          
                     </BoxReveal>
                     </div>

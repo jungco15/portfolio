@@ -23,7 +23,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    max-width: 100%; /* Consider using a percentage of the container's width */
+    max-width: 100%; 
     box-sizing: border-box;
 }
 
@@ -70,14 +70,14 @@
     padding: 20px;
     transition: all 0.3s; 
     cursor: pointer;
+
 }
 
-.row-1 img:hover {
-    filter: drop-shadow( 2px 2px #09cd92);
+.row-1 img:hover {    
     transform: scale(1.02); 
 }
 
-/* Media Queries */
+
 @media (max-width:790px) {
     .row-1 img {
         height: 100%; 

@@ -60,11 +60,11 @@
     padding: 10px 30px; 
     font: 700 16px/20px 'Inria Sans';
     color: #ffffff;
-    border: 1px solid #09cd92; /* Border */
-    border-radius: 2px; /* Optional: rounded corners */
-    text-decoration: none; /* Remove underline */
-    transition: all 0.3s; /* Smooth transition */
-    text-align: center; /* Center text in button */
+    border: 1px solid #09cd92; 
+    border-radius: 2px; 
+    text-decoration: none; 
+    transition: all 0.3s;
+    text-align: center; 
     letter-spacing: 1px;
     position: relative;
     max-width: 100%;

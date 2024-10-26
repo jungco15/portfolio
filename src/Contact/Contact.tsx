@@ -11,9 +11,7 @@ function Contact(){
                        quantity={300}
                        ease={80}
                        refresh/>
-            <div className='contact-content'>
-           
-                
+            <div className='contact-content'>              
                 <div className='contact-heading'>
                 <div className='contact-heading-box'>
                 <BoxReveal>

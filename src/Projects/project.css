@@ -8,7 +8,6 @@
     align-items: center;
     position: relative;
     z-index: 2;
-    border: 1px solid white;
 }
 
 .projects-container {
@@ -89,7 +88,6 @@
         width: 100%;
         height: 100%;
         padding-bottom:0; 
-        border: 1px solid white;
     }
 
     .projects-container {

@@ -1,7 +1,7 @@
 .projects {
     height: 1020px;
     width: auto;
-    background-color: inherit;
+    background-color: none;
     box-sizing: border-box;
     padding-top: 100px;
     display: flex;

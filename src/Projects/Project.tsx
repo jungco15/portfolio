@@ -33,7 +33,8 @@ function Projects (){
                             <img src={list} alt='list'></img> 
                             <img src={list} alt='list'></img> 
                             <img src={list} alt='list'></img>
-                        </div>
+                            </div>
+                        
                         </BoxReveal>
                     </div>
             </div>

@@ -3,6 +3,7 @@ import './header.css';
 import myLogo from '../assets/logo.svg';
 import BoxReveal from '../components/ui/box-reveal';
 import menu from '../assets/menu.svg';
+import Particles from '../components/ui/particles';
 
 function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -45,6 +46,7 @@ function Header() {
                 <img src={menu} alt="menu" />
             </div>
         </header>
+   
     );
 }
 

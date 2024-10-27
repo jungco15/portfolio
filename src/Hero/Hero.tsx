@@ -11,7 +11,7 @@ function Hero(){
 
         
         <section>
-            <div className='wrapper-hero'>
+            <div className='wrapper-hero '>
             <div className="container-hero">    
                 <div className="hero">
                 <Particles className='particles'

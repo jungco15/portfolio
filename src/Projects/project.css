@@ -1,7 +1,7 @@
 .projects {
     height: 1020px;
     width: auto;
-    background-color: #2d2d2d;
+    background-color: inherit;
     box-sizing: border-box;
     padding-top: 100px;
     display: flex;
@@ -14,7 +14,7 @@
 .projects-container {
     height: 685px; 
     width: 958px;
-    background-color: #2d2d2d;
+    background-color: inherit;
     margin: 0;
 }
 

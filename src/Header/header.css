@@ -1,13 +1,13 @@
 header{
-    background-color: #2d2d2d;
     margin: auto;
     display: flex;
     justify-content: space-between;
     padding: 52px ;
-    position: relative;
     z-index: 2;
     transition: height 0.3s ease;
     height: auto;
+    background-color: inherit;
+    position: relative;
 }
 .particles{
     position: absolute;
@@ -30,25 +30,26 @@ header{
 }
 
 header a:hover{
-    color: #09cd92;
+    color:#09cd92;
 } 
 .nav-btn {
     padding-top: 7px;
     margin-right: 46px;
-    color: black;
+    color: #ffffff;
     text-decoration: none;
     font: bold 10px 'Inria Sans', sans-serif;
-    background-color: #ffffff;
+    background-color: inherit;
     letter-spacing: 2px;
     height: 30px;
     width: 95px;
     font-style: normal;
-    border: 0.7px solid rgb(0, 0, 0);
+    border: 1px solid #ffffff1a;
     box-sizing: border-box;
     display: inline-block;
     text-align: center;
     box-shadow: 5px 5px 0px #09cd92, 4px 4px 0px #09cd92, 3px 3px 0px #09cd92, 2px 2px 0px #08cd92;
     transition: all 0.4s;
+    border-radius: 4px;
 }
 .nav-btn:hover{
     box-shadow: none;
@@ -97,7 +98,7 @@ header ul li {
         right: 0;
         flex-direction: column;
         text-align: center;
-        background-color:#2d2d2d;
+        background: color inherit;
         overflow: hidden;
     }
     header ul li{

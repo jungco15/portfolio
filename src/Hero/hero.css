@@ -149,7 +149,17 @@
         display: none;
     }
 }
-@media (min-width:1420px){
+@media (max-width:1440px){
+    .mid-line {
+        background-color: none;
+        position: absolute;
+        left: 74%;
+        top: 58.6%;
+        padding-top: 4px;
+        padding-left: 4px;
+    }
+}
+@media (min-width:1520px){
     .mid-line {
         background-color: none;
         position: absolute;

@@ -125,14 +125,13 @@ html, body{
   overflow-y: auto;
   background-image: linear-gradient(180deg,#111111 , #001b14);
   backdrop-filter: blur(20px);
-  background-repeat: no-repeat;
   z-index: 5;
 }
 
 @media (max-width:490px) {
   html, body{
     background-image: linear-gradient(180deg,#111111 , #001b14);
-    height: 900px ;
+    height: 100vh;
     width: 100%;
     padding: 0;
     margin: 0;

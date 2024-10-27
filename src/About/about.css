@@ -1,6 +1,5 @@
 .particles{
     position: absolute;
-    top: 600;
     left: 0;
     width: 100%;
     height: 100%;
@@ -10,15 +9,14 @@
     background-color: none;
     box-sizing: border-box;
     height: 100%;
-    margin-bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     position:relative;
 }
 .container-about{
-    padding-top: 100px;
-    height: 1020px;
+    padding-top: 120px;
+    height: 950px;
     width: 611px;
     align-items: center;
     position: relative;

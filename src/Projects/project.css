@@ -1,5 +1,5 @@
 .projects {
-    height: 100%;
+    height: 990px;
     width: auto;
     background-color: none;
     box-sizing: border-box;
@@ -11,10 +11,16 @@
 }
 
 .projects-container {
+    padding-top: 100px;
     height: 100%; 
     width: 958px;
     background-color: none;
     margin: 0;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
 }
 
 .projects-header {

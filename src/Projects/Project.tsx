@@ -14,8 +14,7 @@ function Projects (){
                        quantity={300}
                        ease={80}
                        refresh/>
-        <div className="projects-container">
-           
+        <div className="projects-container">  
                 <div className="projects-header">
                 <BoxReveal>
                     <h4>MY PROJECTS</h4>

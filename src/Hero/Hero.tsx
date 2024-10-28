@@ -1,6 +1,5 @@
 import BoxReveal from '../components/ui/box-reveal'
 import './hero.css'
-import Particles from '../components/ui/particles';
 import WordRotate from '../components/ui/word-rotate';
 
 
@@ -14,10 +13,6 @@ function Hero(){
             <div className='wrapper-hero '>
             <div className="container-hero">    
                 <div className="hero">
-                <Particles className='particles'
-                       quantity={300}
-                       ease={80}
-                       refresh/>
                 <BoxReveal>
                 <div className='mini-heading'>
                     <p>Hi there, my name is</p>

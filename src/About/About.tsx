@@ -1,7 +1,6 @@
 import './about.css'
 import myPic from '../assets/mi 1.png'
 import BoxReveal from '../components/ui/box-reveal'
-import Particles from '../components/ui/particles';
 
 
 function About(){
@@ -9,10 +8,6 @@ function About(){
     return(
 
         <div className="about" id='about'>
-        <Particles className='particles'
-                       quantity={300}
-                       ease={80}
-                       refresh/>
         <div className="container-about">
             <div className='section-header' >
             <BoxReveal>

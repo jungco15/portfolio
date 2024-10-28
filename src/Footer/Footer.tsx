@@ -6,11 +6,11 @@ import './footer.css'
 
 function Footer (){
     return(
-<div className="footer">
+<div className="footer z-50">
     <div className="upper-content">
         <p>Build and Designed by John Michael Jungco</p>
     </div>
-    <div className="below-content">
+    <div className="below-content z-50">
         <p>Follow me on</p>
         <a href="https://www.instagram.com/jmjungco15/" target='_blank'>
             <img src={ig} alt="Instagram" />

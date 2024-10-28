@@ -1,5 +1,4 @@
 import BoxReveal from '../components/ui/box-reveal'
-import Particles from '../components/ui/particles'
 import './contact.css'
 import cv from '../../src/assets/CV.pdf'
 
@@ -7,10 +6,6 @@ function Contact(){
     return(
 
         <div className='contact-container' id='contact'>
-                    <Particles className='particles'
-                       quantity={300}
-                       ease={80}
-                       refresh/>
             <div className='contact-content'>              
                 <div className='contact-heading'>
                 <div className='contact-heading-box'>
@@ -29,7 +24,7 @@ function Contact(){
                 
                 <BoxReveal>
                 <div className='contact-button'>
-                   <a href='mailto:jmjungcobsit1@gmail.com'>Say Hi!</a>
+                   <a href='https://mail.google.com/mail/' target='_blank'>Say Hi!</a>
                 </div>
                 </BoxReveal>
             </div>  
